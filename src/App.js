@@ -1,25 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import Section from './Section';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
+    return (
+        <Section addNum={1} reduceNum={1} personalTitle={"Mr/Ms/Miss"}/>
+    );
+}
 export default App;
