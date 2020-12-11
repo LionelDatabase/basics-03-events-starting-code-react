@@ -33,10 +33,6 @@ function Section(props) {
         alert("Submitted!");
     }
 
-    function handleClick(event){
-        alert(event.type);
-    }
-
     return (
         <section id="events">
             <h2>Events in Action</h2>
